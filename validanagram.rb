@@ -7,13 +7,14 @@
 # If we exit the loop it must be true. 
 
 
-def is_anagram(a, b)
- return false unless a.length == b.length  
-  afreq = a.chars.tally
-  bfreq = b.chars.tally
+def is_anagram(s, t)
+ return false unless s.length == t.length  
+  soccurs = s.chars.tally
+  toccurs = t.chars.tally
    
-  return afreq == bfreq
+  return soccurs == toccurs
 end  
+
 
 
 #Success
