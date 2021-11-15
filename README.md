@@ -1,5 +1,5 @@
 # Valid-Anagram
-My Ruby solution that's faster than 95% on Leetcode
+My Ruby solution that's faster than 91% on Leetcode
 
 "Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 
